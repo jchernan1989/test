@@ -1,0 +1,5 @@
+
+
+qhen you stage the file my mistake, It can be unstaged with the command 
+
+git restore --staged <file name>
