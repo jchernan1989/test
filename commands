@@ -1,0 +1,96 @@
+
+
+#### Commands interact with files
+
+mv = move files or folder 
+cp = copy files or folder
+rm = remove file
+rm -r = remove directory
+mkdir = create a new folder
+ls = list content of a directory 
+ls -a = show all files, including the hidden
+cd =
+pwd = 
+. = current location 
+
+
+#### vi to modify files 
+
+vi has multiple modes  
+the two most important are command and insert 
+in command mode , all ket presses are interpreted as commands
+i to go to insert and esc to go back to command mode 
+
+command mode 
+
+x = remove character
+dd = remove the whole line 
+:w  = save 
+:wq  = save and quit 
+:q = only quit 
+
+
+#### state of a file 
+
+Unmodified = no changes have been done since last commit to the repository 
+modified = changes have been done since last commit to the repository 
+statge = changes have been done and added to the current commit, but commit have not been done yet
+
+
+#### Initial configuration 
+
+
+git config = set the username and email in the main configuration file 
+
+git config --global user.name "Jean Carlo hernandez Bravo"
+git config --global user.email "jchernan@cr.ibm.com"
+
+
+git init = initialise a git repository or a new or existing project 
+
+git status = check the status of the files 
+
+git add = add changes to stage ,  git add .   will add the whole files directory for staging 
+
+git commit -m "this is a commit message" = commit the changes 
+
+git commit -v = show more detail about what changes will be commited 
+
+git log = show the list of commits in reverse chronological order
+
+git log -2 = only the last 2 commits
+
+git log -p = changes done in each commit 
+
+git log --pretty=oneline
+
+git diff = view files differences before commiting , un stage
+
+git diff --statage = It shows the changes added before commiting 
+
+git clone = copy a git repository from remote source 
+
+git stash = save changes that you dont want to commit inmediatly 
+
+git clone = copy a repository from remote source
+
+git remote = show all configured remotes 
+
+git remote add <remote url> = add a new remote with a shortname 
+
+git fetch <remote name> =  download all changes from this remote 
+
+git merge origin/master master = ypdate the download info downloaded from remote to your local repository 
+
+git push <name of the remote> <name local>= update changes that I did to the remote repository 
+
+git pull = it does the fetch and merge in a single command 
+
+git remote remove = remove a remote 
+
+git branch = list out all the branches 
+
+git branch <branch name> = create a new branch
+
+git checkout = switch to a different branch 
+
