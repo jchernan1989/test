@@ -1,0 +1,16 @@
+
+
+Git checkout changes your working directory to match a specific commit 
+
+
+### rollback to a previous commit , then everything above that commit will be gone
+
+git checkout  <sha1>
+
+
+### come back to the master,  place before moving the the previous commit 
+
+
+git checkout master 
+
+
